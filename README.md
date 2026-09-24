@@ -40,11 +40,10 @@ Ramoz-AI-Optimizer/
 ├── data/                              # .parquet formatındaki temizlenmiş veri setleri
 ├── src/                               # Makine Öğrenmesi Pipeline Kodları
 │   ├── 01_data_preprocessing.py       # Veri temizleme ve Parquet dönüşümü
-│   ├── 02_feature_engineering.py      # Resampling ve IQR filtrelemeleri
+│   ├── 02_feature_engineering.py      # Resampling, IQR filtrelemeleri ve Random Forest modelinin eğitilmesi
 │   ├── 03_correlation_analysis.py     # Pearson korelasyon ve regresyon analizleri
-│   ├── 04_model_training.py           # Random Forest modelinin eğitilmesi
-│   ├── 05_shap_analysis.py            # Açıklanabilir Yapay Zeka (XAI) analizleri
-│   ├── 06_predictive_maintenance.py   # Termal zorlanma ve arıza tespit algoritması
-│   └── 07_optimization_engine.py      # SciPy Powell optimizasyon motoru
+│   ├── 04_shap_analysis.py            # Açıklanabilir Yapay Zeka (XAI) analizleri
+│   ├── 05_predictive_maintenance.py   # Termal zorlanma ve arıza tespit algoritması
+│   └── 06_optimization_engine.py      # SciPy Powell optimizasyon motoru
 ├── requirements.txt                   # Proje bağımlılıkları ve kütüphane sürümleri
 └── README.md
